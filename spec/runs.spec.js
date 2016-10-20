@@ -24,26 +24,26 @@ describe('runs', function () {
     });
   });
 
-  xdescribe('total distance', function () {
+  describe('total distance', function () {
 
     it('has the correct length', function () {
-      expect(runs.totalDistance()).to.equal(2600);
+      expect(user.totalDistance()).to.equal(2600);
     });
 
   });
 
-  xdescribe('longest run', function () {
+  describe('longest run', function () {
 
     it('has the correct length', function () {
-      expect(runs.longestRun()).to.equal(1400);
+      expect(user.longestRun()).to.equal(1400);
     });
 
   });
 
-  xdescribe('average speed', function () {
+  describe('average speed', function () {
 
     it('has the correct value', function () {
-      expect(runs.averageSpeed().toLocaleString('en-US')).to.equal('1.857');
+      expect(user.averageSpeed().toLocaleString('en-US')).to.equal('1.857');
     });
 
   });

@@ -10,7 +10,7 @@ describe('Storm', function () {
   let storm = new Hero('Ororo Iquadi T\'Challa',
     'Storm', 'weather control');
 
-  xdescribe('super power', function () {
+  describe('super power', function () {
 
     it('weather control', function () {
       expect(storm._power).to.equal('weather control');
